@@ -348,6 +348,9 @@
 
         <!-- qti non-offload configuration to support Hearing Aid and LHDC -->
         <xi:include href="/vendor/etc/bluetooth_audio_policy_configuration_7_0.xml"/>
+        
+        <!-- Bluetooth Audio HAL for hearing aid -->
+        <xi:include href="/vendor/etc/bluetooth_hearing_aid_audio_policy_configuration.xml"/>
 
     </modules>
     <!-- End of Modules section -->
