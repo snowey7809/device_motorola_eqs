@@ -21,19 +21,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from eqs device
 $(call inherit-product, device/motorola/eqs/device.mk)
 
-# Inherit some common Project Elixir stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common DroidX UI stuff.
+$(call inherit-product, vendor/droidx/config/common.mk)
 
-# Official-ify
-ELIXIR_BUILD_TYPE := OFFICIAL
-IS_PHONE := true
-CUSTOM_BUILD_TYPE := OFFICIAL
+#Extra Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_SUPPORTS_BLUR := true
+DROIDX_GAPPS := false
 EXTRA_UDFPS_ANIMATIONS := true
 
-PRODUCT_NAME := aosp_eqs
+PRODUCT_NAME := droidx_eqs
 PRODUCT_DEVICE := eqs
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola

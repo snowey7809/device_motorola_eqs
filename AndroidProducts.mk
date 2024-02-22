@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_eqs.mk
+    $(LOCAL_DIR)/droidx_eqs.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_eqs-user \
-    aosp_eqs-userdebug \
-    aosp_eqs-eng
+    droidx_eqs-user \
+    droidx_eqs-userdebug \
+    droidx_eqs-eng

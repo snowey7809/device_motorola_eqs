@@ -8,6 +8,8 @@
     <string name="def_device_name_simple">motorola edge 30 ultra</string>
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
+	<!-- Whether to show min/max refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
     <!-- The radius of the enrollment progress bar, in DP. -->
     <integer name="config_udfpsEnrollProgressBar">65</integer>
 </resources>
