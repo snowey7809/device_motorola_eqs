@@ -35,13 +35,7 @@ TARGET_KERNEL_CONFIG += \
 	vendor/ext_config/moto-waipio-eqs.config \
 	vendor/ext_config/lineage-moto-waipio-eqs.config
 
-TARGET_KERNEL_DIR := $(DEVICE_PATH)-kernel
-
-KERNEL_MODULE_DIR := $(TARGET_KERNEL_DIR)/modules
-TARGET_FORCE_PREBUILT_KERNEL := true
-TARGET_PREBUILT_KERNEL := $(TARGET_KERNEL_DIR)/kernel
-BOARD_PREBUILT_DTBOIMAGE := $(TARGET_KERNEL_DIR)/dtbo.img
-BOARD_PREBUILT_DTBIMAGE_DIR := $(TARGET_KERNEL_DIR)
+KERNEL_MODULE_DIR := $(DEVICE_PATH)-kernel/modules
 
 # Kernel Modules
 KERNEL_MODULES := $(wildcard $(KERNEL_MODULE_DIR)/*.ko)
