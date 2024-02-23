@@ -28,7 +28,7 @@ $(call inherit-product, vendor/droidx/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_SUPPORTS_BLUR := true
-DROIDX_GAPPS := false
+DROIDX_GAPPS := true
 EXTRA_UDFPS_ANIMATIONS := true
 
 PRODUCT_NAME := droidx_eqs
