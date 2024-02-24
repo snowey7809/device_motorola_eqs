@@ -113,5 +113,8 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
+# Include Viper4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/eqs/eqs-vendor.mk)

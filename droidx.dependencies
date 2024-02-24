@@ -2,5 +2,9 @@
   {
     "repository": "android_device_motorola_sm8475-common",
     "target_path": "device/motorola/sm8475-common"
+  },
+  {
+    "repository": "packages_apps_ViPER4AndroidFX",
+    "target_path": "packages/apps/ViPER4AndroidFX"
   }
 ]
