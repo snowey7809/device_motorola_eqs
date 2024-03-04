@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/droidx_eqs.mk
+    $(LOCAL_DIR)/blaze_eqs.mk
 
 COMMON_LUNCH_CHOICES := \
-    droidx_eqs-user \
-    droidx_eqs-userdebug \
-    droidx_eqs-eng
+    blaze_eqs-user \
+    blaze_eqs-userdebug \
+    blaze_eqs-eng

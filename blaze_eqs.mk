@@ -21,24 +21,33 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from eqs device
 $(call inherit-product, device/motorola/eqs/device.mk)
 
-# Inherit some common DroidX UI stuff.
-$(call inherit-product, vendor/droidx/config/common.mk)
+# Inherit some common Project Blaze stuff.
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 #Extra Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_CALL_RECORDING := true
+
+# Project Blaze
 TARGET_SUPPORTS_BLUR := true
-DROIDX_GAPPS := true
-DROIDX_BUILD_TYPE := OFFICIAL
+
+# Gapps
+WITH_GAPPS := true
+
+# Blaze Official
+BLAZE_BUILD_TYPE := OFFICIAL
+BLAZE_MAINTAINER := Snow(SnowFoxX)
 EXTRA_UDFPS_ANIMATIONS := true
 
-PRODUCT_NAME := droidx_eqs
+PRODUCT_NAME := blaze_eqs
 PRODUCT_DEVICE := eqs
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := motorola edge 30 ultra
 
+# GMS
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
+TARGET_GAPPS_ARCH := arm64
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=eqs_ge \
