@@ -18,6 +18,9 @@ vendor/lib/rfsa/adsp/libvpp_ais_networks.so|351882bd70b4a0b530a80d906e53ebc14dde
 vendor/lib/rfsa/adsp/libvpp_vqa_networks.so|8b86a3d8141745913ae0079481bef7248c8e5d02
 vendor/lib/rfsa/adsp/libvpt_action_recognition.so|ff8198eaab4dace8388dcaf876e471e75e098d0f
 
+# Camera from EQS T
+vendor/lib64/hw/camera.qcom.so|0d1f83f0353dbe7452eb85b4237bdccd0ac91a1a
+
 # Camera
 vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc
@@ -42,7 +45,6 @@ vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
 vendor/lib64/frontier_arcsoft_portrait_super_night_se_raw.bin
 vendor/lib64/frontier_arcsoft_super_night_raw.bin
 vendor/lib64/frontier_arcsoft_super_night_se_raw.bin
-vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libAncHumanSegFigureFusion.so
 vendor/lib64/libFace3DTA.so
